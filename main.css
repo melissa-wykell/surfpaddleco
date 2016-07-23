@@ -1,0 +1,92 @@
+body {
+  font-family: "Oswald", "open sans", sans-serif;
+}
+
+header {
+  background-image: url("images/header.jpg");
+  }
+
+.blog ul {
+  list-style: none;
+  margin-left: -26px;
+}
+
+.heading h1{
+  color: white;
+  font-size: 100px;
+  margin: 0px;
+}
+
+.blog {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 0px 0px 100px;
+}
+
+
+.myImg {
+  display: flex;
+  padding: 10px 100px 0px 0px;
+  justify-content: space-between;
+}
+.myImg a{
+  margin: 0px 10px 0px 0px;
+}
+h4 {
+  color: blue;
+}
+
+.heading_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.surf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  }
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-self: column;
+}
+
+
+.media {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.TIY_footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.horizontal_list{
+  display: flex;
+  justify-content: space-around
+}
+
+h1 {
+  font-weight: normal;
+}
+.subheading p{
+  margin-top: 0px;
+  padding-bottom: 200px;
+}
+.heading{
+  padding-top: 125px;
+}
