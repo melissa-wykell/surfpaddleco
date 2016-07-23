@@ -52,20 +52,37 @@ h4 {
 
 .main{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 0px 20px;
 }
 
 .avatar{
   display: flex;
   justify-content: center;
-  align-self: column;
+  flex-direction: column;
+  align-items: center;
 }
-
+.avatar img {
+  height: 50px;
+  width: 50px;
+}
+.avatar h4 {
+  margin: 0px;
+}
 
 .media {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-between;
+}
 
+.facebook {
+  display: block;
+  margin: 0px 5px 0px 5px;
 }
 
 .TIY_footer ul {
@@ -80,6 +97,16 @@ h4 {
   justify-content: space-around
 }
 
+.paddleboarder{
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar_heading{
+  display: flex;
+  justify-content: flex-start;
+  color: blue;
+}
 h1 {
   font-weight: normal;
 }
@@ -89,4 +116,90 @@ h1 {
 }
 .heading{
   padding-top: 125px;
+}
+.horizontal_list {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+.surfer{
+  background-image: url("images/article-image-1.jpg");
+  height: 325px;
+  width: 330px;
+  background-repeat: no-repeat;
+}
+.beer {
+  background-image: url("images/article-image-2.jpg");
+  height: 325px;
+  width: 330px;
+  background-repeat: no-repeat;
+}
+.beer a{
+  color: white;
+}
+.zac a {
+  color: white;
+}
+.booze a {
+  color: white;
+}
+.surfer a {
+  color: white;
+}
+.zac {
+  background-image: url("images/article-image-3.jpg");
+  height: 325px;
+  width: 330px;
+  background-repeat: no-repeat;
+}
+.booze {
+  background-image: url("images/article-image-4.jpg");
+  height: 325px;
+  width: 330px;
+  background-repeat: no-repeat;
+}
+.horizontal_list a{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.TIY_footer{
+  background: rgb(18, 28, 57);
+  color: white;
+  font-weight: normal;
+  height: 126px;
+  padding-top: 1px;
+}
+.buttons{
+  background: grey;
+}
+
+.body{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*align-items: center;*/
+  flex-direction: column;
+  width: 650px;
+}
+.woah{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+  border-left: 2px solid grey;
+}
+.woah h4 {
+  margin-left: 20px;
+}
+.right_sidebar{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 278px;
+}
+
+footer {
+  margin-top: 100px;
 }
